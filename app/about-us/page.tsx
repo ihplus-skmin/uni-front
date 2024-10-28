@@ -1,3 +1,10 @@
+import Navigation from "../../components/naavigation"
+
 export default function aboutUs () {
-  return <h1>About uni front</h1>
+  return (
+    <div>
+      <Navigation />
+      <h1>About uni front</h1>
+    </div>
+  )
 }

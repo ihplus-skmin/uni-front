@@ -1,3 +1,10 @@
+import Navigation from "../components/naavigation"
+
 export default function UniFront () {
-  return <h1>Hello Uni Front</h1>
+  return (
+    <div>
+      <Navigation />
+      <h1>Hello Uni Front</h1>
+  </div>
+  )
 }
